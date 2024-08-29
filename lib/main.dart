@@ -144,7 +144,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         });
 
                         _client?.joinSession().whenComplete(() {
-                          print("JOINED SESSION");
+                          print("JOINED SESSON");
                         });
                       });
                     } else {
